@@ -1,0 +1,21 @@
+{
+  "name": "js-assignment-create-questions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Will Marttala",
+  "scripts": {
+    "test": "mocha --require @babel/register",
+    "start": "nodemon --exec babel-node src/lib.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "jsverify": "^0.8.3",
+    "nodemon": "^1.19.2",
+    "mocha": "^5.0.0",
+    "underscore": "^1.8.3"
+  }
+}
